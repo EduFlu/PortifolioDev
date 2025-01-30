@@ -39,6 +39,15 @@ body {
 header {
   background-image: url(/assets/Background_Intro.png);
   background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  background-color: var(--gray-200);
+}
+
+h1 h2 h3 {
+  color: var(--gray-600);
 }
 
 h1 {
@@ -50,12 +59,20 @@ h2 {
   margin-bottom: 54px;
 }
 
+h3 {
+  font-family: var(--font-family-asap);
+  margin-block: 24px 16px;
+}
+
 p {
+  font-family: var(--font0-family-asap);
   font: var(--title-sm-mp);
+  color: var(--gray-400);
 }
 
 span {
   margin-bottom: 8px;
+  color: var(--gray-500);
 
   strong {
     font-family: var(--font-family-asap);
