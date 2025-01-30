@@ -73,6 +73,7 @@ p {
 span {
   margin-bottom: 8px;
   color: var(--gray-500);
+  font: var(--subtitle);
 
   strong {
     font-family: var(--font-family-asap);
@@ -81,6 +82,7 @@ span {
 }
 
 strong {
+  font: var(--subtitle);
   color: var(--red);
   margin-bottom: 16px;
 }
