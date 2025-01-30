@@ -30,3 +30,25 @@
   }
 }
 
+.services {
+  background-color: var(--gray-100);
+}
+
+.service {
+  border: 2px solid var(--gray-500);
+  border-radius: 12px;
+  margin: 0 24px 120px 24px;
+
+  img {
+    width: 48px;
+    margin: 20px 0 0 20px;
+  }
+
+  h3 {
+    margin: 20px 20px 20px 20px;
+  }
+
+  p {
+    margin: 0 20px 20px 20px;
+  }
+}
