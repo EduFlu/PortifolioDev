@@ -30,6 +30,16 @@
   }
 }
 
+.card {
+  transition: 0.5s;
+  
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 2px 30px rgb(227, 227, 227);
+}
+
 .services {
   background-color: var(--gray-100);
 }
