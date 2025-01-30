@@ -23,6 +23,7 @@ footer {
   padding: 20px;
   width: 400px;
   border-radius: 16px;
+  transition: 0.5s;
 
   a {
     p{
@@ -32,6 +33,8 @@ footer {
 }
 
 .link-footer:hover {
+  transform: translateY(-5px);
+  
   .icon {
     color: var(--blue);
   }
